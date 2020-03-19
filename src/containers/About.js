@@ -35,6 +35,13 @@ export default class About extends Component {
             <div className="skills__icons">
               <i
                 aria-hidden="true"
+                className="devicon-react-original-wordmark colored dev-icon"
+                title="React"
+              >
+                <span className="sr-only">React</span>
+              </i>
+              <i
+                aria-hidden="true"
                 className="devicon-html5-plain-wordmark colored dev-icon"
                 title="HTML5"
               >
@@ -91,17 +98,17 @@ export default class About extends Component {
               </i>
               <i
                 aria-hidden="true"
-                className="devicon-react-original-wordmark colored dev-icon"
-                title="React"
-              >
-                <span className="sr-only">React</span>
-              </i>
-              <i
-                aria-hidden="true"
                 className="devicon-wordpress-plain-wordmark dev-icon"
                 title="WordPress"
               >
                 <span className="sr-only">WordPress</span>
+              </i>
+              <i
+                aria-hidden="true"
+                className="devicon-php-plain colored dev-icon"
+                title="PHP"
+              >
+                <span className="sr-only">PHP</span>
               </i>
             </div>
             <div className="about__site">
